@@ -81,11 +81,13 @@ Each supported IoC container has its own package assisting in the setup and usag
 #### Xamarin Forms
 
 | Package | NuGet | MyGet |
-|---------|-------|-------|
+|---------|:-------:|:-------:|
 | [Prism.Autofac.Forms][AutofacFormsNuGet] | [![AutofacFormsNuGetShield]][AutofacFormsNuGet] | [![AutofacFormsMyGetShield]][AutofacFormsMyGet] |
 | [Prism.DryIoc.Forms][DryIocFormsNuGet] | [![DryIocFormsNuGetShield]][DryIocFormsNuGet] | [![DryIocFormsMyGetShield]][DryIocFormsMyGet] |
-| [Prism.Ninject.Forms][NinjectFormsNuGet] | [![NinjectFormsNuGetShield]][NinjectFormsNuGet] | [![NinjectFormsMyGetShield]][NinjectFormsMyGet] |
+| [Prism.Ninject.Forms][NinjectFormsNuGet] | [![NinjectFormsNuGetShield]][NinjectFormsNuGet] | \* **Discontinued** |
 | [Prism.Unity.Forms][UnityFormsNuGet] | [![UnityFormsNuGetShield]][UnityFormsNuGet] | [![UnityFormsMyGetShield]][UnityFormsMyGet] |
+
+\*NOTE: Ninject has been discontinued in Prism 7 due to an incompatibility of the Container's .NET Standard update with Xamarin iOS and Xamarin Android.
 
 ![NuGet package tree](docs/images/NuGetPackageTree.png)
 
